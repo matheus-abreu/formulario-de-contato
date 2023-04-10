@@ -1,0 +1,47 @@
+body{
+    font-size: large;
+}
+
+form {
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 95%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.caixas-de-texto{
+    padding: 10px;
+    border-radius: 4px;
+    border: 0.5px solid #ccc;
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.enviar{
+    background-color: #294fb8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #294fb89f;
+}
+
+@media (min-width: 1000px){
+    .form {
+      width: 38%;
+    }
+  }
